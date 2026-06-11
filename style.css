@@ -2,3 +2,11 @@
         display: flex;
         justify-content: space-between;
         align-items:  center
+}
+
+.cabecalho-titulo{
+        font-size: 3rem 
+        color: 
+        line-height: 1.2:large
+        margin-bottom: 20px
+}
