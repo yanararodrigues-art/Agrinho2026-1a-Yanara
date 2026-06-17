@@ -1,12 +1,46 @@
-.cabecalho{ 
-        display: flex;
-        justify-content: space-between;
-        align-items:  center
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items:  center;
 }
 
 .cabecalho-titulo{
-        font-size: 3rem 
-        color: 
-        line-height: 1.2:large
-        margin-bottom: 20px
+    font-size: 3rem;
+    color: black;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.cabecalho-menu{
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.cabecalho-menu-item{
+    text-decoration: none;
+    color: red;
+    margin: 0 15px;
+    font-weight: 600;
+    transition: color 0.2s;
+}
+
+.cabecalho-menu-botao{
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: transform 0.2s;
+}
+
+.problema{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 5%;
+    min-height: 80vh;
+    gap: 30px;
 }
