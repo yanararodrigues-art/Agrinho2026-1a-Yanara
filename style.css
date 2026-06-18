@@ -44,3 +44,27 @@
     min-height: 80vh;
     gap: 30px;
 }
+
+.problema-textos{ 
+        flex:1;
+}
+.problema-titulo{ 
+    font-size: 3rem;
+    color:black;
+    line-height:.2
+
+}
+
+
+.problema-paragrago{ 
+        font-size: ;
+
+
+
+
+    .problema-imagem{ 
+    flex: 1;
+    display: flex;
+        justify-content: center;
+    }
+.problema-foto
